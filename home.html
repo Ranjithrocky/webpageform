@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE EVALUATION SURVEY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container"> <h1 class="text-success text-center">Course Evaluation form</h1><div class="col-lg-8 m-auto d-block">
+        
+   
+    <form action="/display.html" onsubmit="validate()">
+    
+   
+    <div class="form-group ">
+        
+        <h3>1.Where did you find this course</h3>
+        <div class="options">
+        <label ><input type="checkbox" name="recc" id="rec" value="Recommendation">Recommendation</label><br>
+        <label ><input type="checkbox" name="recc" id="i" value="I like This Subject">I like This Subject</label> <br>
+        <label ><input type="checkbox" name="recc" id="it" value="It's my passion">It's my passion</label> <br>
+        <label ><input type="checkbox" name="recc" id="ge" value="General Education">General Education</label><br>
+        <label ><input type="checkbox" name="recc" id="ma" value="Major or Minor Requirement">Major or Minor Requirement</label><br>
+        <label ><input type="checkbox" name="recc" id="ot" value="Other">Others</label><br>
+    </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <h3>2.Based on your expectation,How hard this course is</h3>
+        <div class="options">
+        <label ><input type="radio" name="recc" id="rec" value="Much easier than expected">Much easier than expected</label><br>
+        <label ><input type="radio" name="recc" id="i" value="Easier than expected">Easier than expected</label> <br>
+        <label ><input type="radio" name="recc" id="it" value="As expected">As expected</label> <br>
+        <label ><input type="radio" name="recc" id="ge" value="Harder than expected">Harder than expected</label><br>
+        <label ><input type="radio" name="recc" id="ma" value="Much Harder Than expected">Much Harder Than expected</label><br>
+    </div>
+    </div>
+    <div class="form-group">
+        <h3>3.What do you think of the Instructor</h3>
+        <textarea name="instructor" id="instructor" cols="50" rows="8">Write Your Views</textarea>
+    </div>
+    <div class="form-group">
+        <h3>4.Can you regiter for another course by the same teacher</h3>
+        <div class="options">
+        <label> <input type="radio" value="1" id="ycourse">Yes</label>
+        <label> <input type="radio" value="0" id="ncourse">No</label>
+    </div>
+    </div>
+    <div class="form-group">
+        <h3>5.Do you find the course useful</h3>
+        <div class="options">
+            <label ><input type="radio" name="recc" id="rec" value="1">Yes</label><br>
+             <label ><input type="radio" name="recc" id="ma" value="0">No</label><br>
+        </div>
+    </div>
+<input type="submit" value="Submit"></form>
+    </div>
+</div>
+
+</body>
+</html>
